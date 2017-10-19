@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="10" name="Failed suite [Regression]">
+  <test name="LFGdotCOM(failed)">
+    <classes>
+      <class name="cucumber.CucumberRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0 1 2"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- cucumber.CucumberRunner -->
+    </classes>
+  </test> <!-- LFGdotCOM(failed) -->
+</suite> <!-- Failed suite [Regression] -->
